@@ -6,8 +6,8 @@ A polished Dash app that tells a deliberately skewed story about how California�
 
 ## 🚀 Project Overview
 
-- **Goal:** Demonstrate how true data can be misrepresented through selective visualization.
-- **Misleading Narrative:** Present California’s annual minimum wage alongside low‑cost benchmarks (from Pakistan data) to falsely imply full affordability.
+- **Goal:** Demonstrate how true data can be misrepresented through selective visualization.  
+- **Misleading Narrative:** Present California’s annual minimum wage alongside low‑cost benchmarks (from Pakistan data) to falsely imply full affordability.  
 - **Reveal:** Finally expose the omission of real urban expenses and correct the narrative.
 
 ---
@@ -15,20 +15,21 @@ A polished Dash app that tells a deliberately skewed story about how California�
 ## 📚 Pre‑Reading Material
 
 **Title:** California’s Minimum Wage and Urban Living Costs  
-**Source:** California Department of Industrial Relations & Economic Policy Institute, with Numbeo cost‑of‑living data  
+**Source:** Drexel University Hunger‑Free Campus Research Brief, **“Wage Brief 2021”**  
+> *“In 2021, a worker receiving minimum wage would be unable to afford a fairly priced two‑bedroom apartment in any U.S. county.”*   
 **Thesis:** Although California’s nominal minimum wage has risen steadily, it still falls far short of covering real living costs—especially in high‑expense cities like Los Angeles and San Francisco.
 
 **Pre‑Reading Questions:**
-1. How is California’s “annual minimum wage” calculated from the hourly rate?  
-2. What are the largest components of cost‑of‑living in urban centers (e.g., housing, utilities, groceries)?  
-3. How do “nominal” wage figures differ from “real” wages adjusted for inflation and local costs?  
-4. What methodologies do Numbeo and the EPI use to estimate living‑cost metrics?  
-5. What policy recommendations have been proposed to close the gap between minimum wage and real expenses?  
-6. How might comparing against low‑cost regions distort our understanding of affordability?  
-7. Which hidden costs (childcare, transportation, healthcare) tend to be omitted in simplistic analyses?  
-8. How do selective time windows (e.g., 1998–2012 vs. 2016–2020) change the interpretation of wage trends?  
-9. What role does data visualization (axis scaling, aggregation) play in shaping audience perception?  
-10. Why is a final “reveal” important when demonstrating misleading narratives?
+1. **How does the Drexel brief define a “fairly priced” two‑bedroom apartment?**  
+2. **What affordability threshold (rent‑to‑income ratio) does the report use to judge housing unaffordability?**  
+3. **Which data sources and time period did Drexel use to calculate minimum‑wage purchasing power in 2021?**  
+4. **How many U.S. counties did the analysis cover, and what variations did it find across regions?**  
+5. **What assumptions does the brief make about full‑time work hours when converting hourly wage to annual income?**  
+6. **In what ways does the report adjust for local cost differences (e.g., urban vs. rural)?**  
+7. **What other household expenses (utilities, transportation, etc.) does the brief mention—or deliberately omit—when assessing affordability?**  
+8. **What policy recommendations or “next steps” does the Drexel brief propose to address the affordability gap?**  
+9. **How might focusing solely on housing costs mask other financial pressures on minimum‑wage workers?**  
+10. **Why is it important to consider both nominal wage increases and real purchasing power together?**
 
 ---
 
@@ -41,15 +42,13 @@ A polished Dash app that tells a deliberately skewed story about how California�
 - **Pakistan Basic Utilities** (`pakistan_col_basic_util.csv`):  
   Monthly utility cost × 12 for annual utilities.
 
+
 ---
 
-## 🖥️ Tech Stack
+## 🔍 Citation
 
-- **Python 3.x**  
-- **Dash** for interactive dashboard  
-- **Plotly** for charts  
-- **Pandas** for data processing  
-- **Bootstrap (via dash‑bootstrap‑components)** for layout and cards
+- Drexel University Hunger‑Free Campus, **Wage Brief 2021**:  
+  <https://drexel.edu/~/media/Files/hunger-free-center/research-briefs/wage-brief-2021.a> 
 
 ---
 
